@@ -1,0 +1,67 @@
+body{
+    background-color:black
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.menu_logo{
+    max-width: 150px;
+}
+.menu_lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.menu_lista_item{
+    color: #fd0a60;
+    font-family: 'Bungee Spice', sans-serif;
+    font-family: 'Great Vibes', cursive;
+    border-radius: 20px;
+    text-decoration: none;
+  
+    border-radius: 20px;
+    font-size: 60px;
+    text-decoration: none;
+    
+    
+}
+.menu_curriculo{
+    color:aliceblue;
+    font-family: 'Great Vibes', cursive;
+    font-family: "press Start 2p" ,sistem-ui;
+    background-color: #fd0a60;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.banner{
+    background-image: url(https://wallpaperaccess.com/full/2471314.gif);
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+
+}
+.banner_info_imagen{
+    max-width: 300px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.banner_info_nome{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+    
+
+}
+.banner_info_cargo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+
+}
